@@ -55,4 +55,23 @@ In this T-test agin, p-value is 0.6072. that is quite higher than 0.05. We fail 
 
 In this T-test, p-value is 0.04168 which is less than 0.05. We reject the null hypothesis the that the PSI of Lot 3 is statistically different from the population mean of 1,500 pounds per square inch. **This lot might be the cause of production troubles and need more attention to find the issue.**
 
+## Study Design: MechaCar vs Competition
+
+In order to compare the performance of the MechaCar against the competition, we can refer to few different variables such as , fuel efficiency, horsepower, safety rating,carbon waste and emissions system.
+
+What metric or metrics are you going to test?
+The metrics are horsepower and highway fuel efficiencies.
+
+What is the null hypothesis or alternative hypothesis?
+H0: The means of fuel efficiency of all groups are equal. Ha: There is at least one mean that has different fuel efficiency from all other groups.
+
+What statistical test would you use to test the hypothesis? And why?
+Using a one-way ANOVA test would be a good fit for this analysis since we are working on a single variable with multiple groups. Here we can assign single dependent variable fuel efficiency means across a single independent variable horse power with multiple groups. Depends on p-value we can either we reject the null hypothesis, conclude that at least one of the means of fuel efficiency is different from all other groups.
+
+What data is needed to run the statistical test?
+
+Following data is needed to run this statistical test,
+- VIN number
+- Horse Power data
+- Fuel Efficiency data
 
