@@ -11,11 +11,13 @@
 ### Summary
 
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
+Two variables provided a non-random amount of variance: the vehicle length and the ground_clearance. Both varriables have p-value less than 0.05 is statistically significant. The intercept has a high level of significance which means there are other factors contributing to the variance of the mpg values in the dataset.
 
 **Is the slope of the linear model considered to be zero? Why or why not?**
+In this case, the slope of the linear model is not not consered to be zero. The linear regression shows that some of the independent variables had a significant effect on the dependent variable. If the independent variables had no effect on the dependent variable, then the linear regression would have resulted in a near zero slope.
 
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
-
+The the r-squared value is the main indicator to evaluate whether the linear model predicts the mpg of the MechaCar effectively or not. In this case, r-squared value is at 0.7149, which means out of 100 instances, this model would predict the mpg of the MechaCar correctly about 71 times. This model can be considered effective.
 
 ## Summary Statistics on Suspension Coils
 
@@ -27,9 +29,7 @@
 ### Summary
 
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
-Since the variance of the suspension coils must be less than 100 pounds per square inch then the current manufacturing data meet this design specification for all manufacturing lots in total as 62.29356
-
-However, when we created a summary for each individual lot , we can observe that Lot 3 exceed the limit of 100 pounds PSI as 170.286
+Since the variance of the Suspension Coils must not exceed 100 pounds per square inch, the manufacturing data meet this design specification for all manufacturing lots in total at 62.29 pounds per square inch. Considering the lots individually, Lot 1 and Lot 2 meet the design specification at a varaince of approximately 0.98 PSI and 7.5 PSI respectfully, but Lot 3 varriance at 170.28 PSI, does not meet the design specification. 
 
 ## T-Tests on Suspension Coils
 To decide either to reject or fail to reject an Hypotesis, p-value of each observation was calulated. When p-value was lower than the significance level of 0.005, null hypothesis was rejected.
