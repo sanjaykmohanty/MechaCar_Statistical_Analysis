@@ -11,13 +11,16 @@
 ### Summary
 
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
-Two variables provided a non-random amount of variance: the vehicle length and the ground_clearance. Both varriables have p-value less than 0.05 is statistically significant. The intercept has a high level of significance which means there are other factors contributing to the variance of the mpg values in the dataset.
+
+Two variables provided a non-random amount of variance: the vehicle length and the ground_clearance. Both varriables have p-value less than 0.05 which is statistically significant. The intercept has a high level of significance which means there are other factors contributing to the variance of the MPG values in the dataset.
 
 **Is the slope of the linear model considered to be zero? Why or why not?**
-In this case, the slope of the linear model is not not consered to be zero. The linear regression shows that some of the independent variables had a significant effect on the dependent variable. If the independent variables had no effect on the dependent variable, then the linear regression would have resulted in a near zero slope.
+
+In this case, the slope of the linear model is not not considered to be zero. The linear regression shows that some of the independent variables had a significant effect on the dependent variable. If the independent variables had no effect on the dependent variable, then the linear regression would have resulted in a near zero slope.
 
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
-The the r-squared value is the main indicator to evaluate whether the linear model predicts the mpg of the MechaCar effectively or not. In this case, r-squared value is at 0.7149, which means out of 100 instances, this model would predict the mpg of the MechaCar correctly about 71 times. This model can be considered effective.
+
+The the r-squared value is the main indicator to decide whether the linear model predicts the MPG of the MechaCar effectively or not. In this case, r-squared value is at 0.7149, which means out of 100 instances, this model would predict the MPG of the MechaCar correctly about 71 times. This model can be considered effective.
 
 ## Summary Statistics on Suspension Coils
 
@@ -29,10 +32,12 @@ The the r-squared value is the main indicator to evaluate whether the linear mod
 ### Summary
 
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
-Since the variance of the Suspension Coils must not exceed 100 pounds per square inch, the manufacturing data meet this design specification for all manufacturing lots in total at 62.29 pounds per square inch. Considering the lots individually, Lot 1 and Lot 2 meet the design specification at a varaince of approximately 0.98 PSI and 7.5 PSI respectfully, but Lot 3 varriance at 170.28 PSI, does not meet the design specification. 
+
+Since the variance of the Suspension Coils must not exceed 100 pounds per square inch, the manufacturing data meet this design specification for all manufacturing lots in total at 62.29 pounds per square inch. Considering the lots individually, Lot 1 and Lot 2 meet the design specification at a varaince of approximately 0.98 PSI and 7.5 PSI respectively, but Lot 3 varriance at 170.28 PSI, did not meet the design specification. 
 
 ## T-Tests on Suspension Coils
-To decide either to reject or fail to reject an Hypotesis, p-value of each observation was calulated. When p-value was lower than the significance level of 0.005, null hypothesis was rejected.
+
+To decide either to 'reject' or 'fail to reject' an Hypotesis, p-value of each observation was calulated. When p-value was lower than the significance level of 0.05, null hypothesis was rejected.
 
 ### T-Test on Suspension Coils All Manufacturing Lots 
 
@@ -56,11 +61,11 @@ In this T-test agin, p-value is 0.6072. that is quite higher than 0.05. We fail 
 
 ![image](https://user-images.githubusercontent.com/31812730/206977617-fb56a359-05bc-4e12-85d4-a58054e8b363.png)
 
-In this T-test, p-value is 0.04168 which is less than 0.05. We reject the null hypothesis the that the PSI of Lot 3 is statistically different from the population mean of 1,500 pounds per square inch. **This lot might be the cause of production troubles and need more attention to find the issue.**
+In this T-test, p-value is 0.04168 which is less than 0.05. We reject the null hypothesis the that the PSI of Lot 3 is statistically different from the population mean of 1,500 pounds per square inch. This lot needs more attention to find the issue.
 
 ## Study Design: MechaCar vs Competition
 
-In order to compare the performance of the MechaCar against the competition, we can refer to few different variables such as , fuel efficiency, horsepower, safety rating,carbon waste and emissions system.
+In order to compare the performance of the MechaCar against the competition, we can refer to few different variables such as fuel efficiency, horsepower, safety rating,carbon waste and emissions system.
 
 What metric or metrics are you going to test?
 The metrics are horsepower and highway fuel efficiencies.
