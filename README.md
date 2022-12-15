@@ -33,7 +33,7 @@ The the r-squared value is the main indicator to decide whether the linear model
 
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
-Since the variance of the Suspension Coils must not exceed 100 pounds per square inch, the manufacturing data meet this design specification for all manufacturing lots in total at 62.29 pounds per square inch. Considering the lots individually, Lot 1 and Lot 2 meet the design specification at a varaince of approximately 0.98 PSI and 7.5 PSI respectively, but Lot 3 varriance at 170.28 PSI, did not meet the design specification. 
+As per the design specificstion, the variance of the Suspension Coils must not exceed 100 pounds per square inch, the manufacturing data meet this design specification for all manufacturing lots in total at 62.29 pounds per square inch. Considering the lots individually, Lot 1 and Lot 2 meet the design specification at a varaince of approximately 0.98 PSI and 7.5 PSI respectively, but Lot 3 varriance at 170.28 PSI, did not meet the design specification. 
 
 ## T-Tests on Suspension Coils
 
@@ -67,19 +67,24 @@ In this T-test, p-value is 0.04168 which is less than 0.05. We reject the null h
 
 In order to compare the performance of the MechaCar against the competition, we can refer to few different variables such as fuel efficiency, horsepower, safety rating,carbon waste and emissions system.
 
-What metric or metrics are you going to test?
-The metrics are horsepower and highway fuel efficiencies.
+**What metric or metrics are you going to test?**
 
-What is the null hypothesis or alternative hypothesis?
-H0: The means of fuel efficiency of all groups are equal. Ha: There is at least one mean that has different fuel efficiency from all other groups.
+The metrics we could test are horsepower and highway fuel efficiency.
 
-What statistical test would you use to test the hypothesis? And why?
-Using a one-way ANOVA test would be a good fit for this analysis since we are working on a single variable with multiple groups. Here we can assign single dependent variable fuel efficiency means across a single independent variable horse power with multiple groups. Depends on p-value we can either we reject the null hypothesis, conclude that at least one of the means of fuel efficiency is different from all other groups.
+**What is the null hypothesis or alternative hypothesis?**
 
-What data is needed to run the statistical test?
+**Null hypothesis (H0):** There is no statistical difference between the fuel efficiency of the MechaCar and the fuel efficiency of competitor's car.
+
+**Alternate Hypothesis(Ha):** There is statistical difference between the fuel efficiency of the MechaCar and the fuel efficiency of competitor's car.
+
+**What statistical test would you use to test the hypothesis? And why?**
+
+To test the hypotheis that there is no statistical difference between the fuel efficiency of MechaCar and the fuel efficiency of competitor's car, we could use a one-way ANOVA test. ANOVA test would allow us to test the null hypothesis that the mean of all groups are equal. The mean of samples would include MechaCar's MPG values and MPG values similar competitor vehicles.
+
+**What data is needed to run the statistical test?**
 
 Following data is needed to run this statistical test,
-- VIN number
-- Horse Power data
-- Fuel Efficiency data
+- Vehicle Type
+- Horse Power d
+- Miles per gallon 
 
