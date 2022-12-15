@@ -85,6 +85,6 @@ To test the hypotheis that there is no statistical difference between the fuel e
 
 Following data is needed to run this statistical test,
 - Vehicle Type
-- Horse Power d
+- Horse Power 
 - Miles per gallon 
 
